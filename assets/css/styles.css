@@ -1,0 +1,246 @@
+/* STYLES */
+
+header {
+  padding: 1em 2em 1em;
+  background-image: linear-gradient(0deg, #E7FBFF 12%, #87EAFF 100%);
+}
+
+header h1 {
+  font-size: 2em;
+  color: var(--blue-md);
+  line-height: 1.25;
+  margin: .5em 0 0;
+}
+
+header h1 a {
+  /*  */
+}
+
+header p {
+  /*  */
+}
+
+header p a {
+  /*  */
+}
+
+header .contact p {
+  color: var(--blue-dk);
+  font-size: 1.25em;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+header .contact p a {
+  color: var(--blue-md);
+}
+header .contact p a:hover {
+  color: var(--blue-dk);
+}
+
+/* NAV */
+/* NAV */
+nav {
+  padding: 1em 2em 0em;
+  display: flex; 
+  flex-direction: row;
+}
+
+nav .navButton {
+  padding: 1.3em 1.8em 1.3em;
+  background: var(--blue-lt);
+  font-size: 1.25em;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+nav .navButton.btnOn {
+  background: var(--blue-lt);
+}
+
+nav .navButton.btnOn:hover {
+  color: var(--white);
+  /* background: var(--blue-md); */
+  cursor: pointer;
+  background-image: linear-gradient(0deg, var(--blue-lt) 0%, var(--blue-md) 100%);
+}
+
+nav .navButton.btnOff {
+  color: grey;
+  background: var(--grey);
+}
+
+nav .navButton.btnOff:hover {
+  color: var(--white);
+  background: var(--blue-md);
+  cursor: pointer;
+  background-image: linear-gradient(0deg, var(--blue-lt) 0%, var(--blue-md) 100%);
+}
+
+
+main.container {
+  background: var(--blue-lt);
+  padding: 1em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+/* FISH LISTING */
+/* FISH LISTING */
+section.fishListing {
+  background: var(--blue-lt);
+  padding: 1em;
+}
+
+section.fishListing .panel {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+section.fishListing .panel .fishyImg1 {
+  background-image: url('../images/fish1.jpg');
+  background-size: cover;
+  /* width: 100%; */
+  /* height: 240px; */
+  background-repeat: no-repeat;
+}
+
+section.fishListing .panel .fishyImg2 {
+  background-image: url('../images/fish2.jpg');
+  background-size: cover;
+  /* width: 100%; */
+  /* height: 240px; */
+  background-repeat: no-repeat;
+}
+
+.fishyImg1,
+.fishyImg2 {
+   /* width: 100%; */
+   height: 26vh;
+}
+
+@media (max-width: 1100px) {
+  .fishyImg1,
+  .fishyImg2 {
+    /* width: 100%; */
+    height: 20vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .fishyImg1,
+  .fishyImg2 {
+    /* width: 100%; */
+    height: 24vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .fishyImg1,
+  .fishyImg2 {
+    /* width: 100%; */
+    height: 26vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .fishyImg1,
+  .fishyImg2 {
+    /* width: 100%; */
+    height: 20vh;
+  }
+}
+
+/* @media (max-width: 1000px) {
+  .fishyImg1,
+  .fishyImg2 {
+    width: 100%;
+    height: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fishyImg1,
+  .fishyImg2 {
+    width: 100%;
+    height: 250px;
+  }
+} */
+
+
+
+section.fishListing .panel h4 {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+  color: var(--blue-md);
+}
+
+section.fishListing .panel p {
+  font-size: 1em;
+  margin: 0em;
+  line-height: 1.5;
+}
+
+section.fishListing .panel p i {
+  color: #005c6f;
+  font-style: normal;
+
+}
+
+
+/* ASIDE */
+/* ASIDE */
+aside {
+  /*  */
+}
+
+aside h4 {
+  /*  */
+}
+
+aside p {
+  line-height: 1.75em;
+}
+
+aside p a {
+  /*  */
+}
+
+/* FOOTER */
+/* FOOTER */
+footer {
+  background-image: linear-gradient(180deg, #E7FBFF 12%, #87EAFF 100%);
+}
+
+footer h4 {
+  font-size: 1.75em;
+  color: var(--blue-md);
+  /* line-height: 1.25; */
+  margin: 0.5em 0 0;
+}
+
+footer .contact {
+  /*  */
+}
+
+footer .contact p {
+  font-size: 1.15em;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: var(--blue-dk);
+}
+
+footer .contact p a {
+  color: var(--blue-md);
+}
+
+footer .contact p a:hover {
+  color: var(--blue-dk);
+}

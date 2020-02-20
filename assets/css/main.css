@@ -1,0 +1,36 @@
+@import './layout.css';
+@import './styles.css';
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-dk: #0E353D;
+  --blue-md: #267A8C;
+  --blue-lt: #CBF6FF;
+  --blue-pale: #EEFCFF;
+  --grey: rgb(234, 234, 234);
+  --white: #FFFFFF;
+  --black: #121212;
+}
+
+html {
+  background: var(--blue-pale);
+  font-family: Agave, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--blue-dk);
+}
+
+p, ul, ol, li {
+ color: var(--black);
+}
