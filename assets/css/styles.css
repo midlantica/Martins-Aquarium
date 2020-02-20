@@ -107,28 +107,28 @@ section.fishListing .panel {
 
 @media (min-width: 0px), (max-width: 599px) {
   section.fishListing .panel {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 400px;
   }
 }
 
 @media (min-width: 600px) {
   section.fishListing .panel {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 290px;
   }
 }
 
 @media (min-width: 700px) {
   section.fishListing .panel {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 380px;
   }
 }
 
 @media (min-width: 1000px) {
   section.fishListing .panel {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 340px;
   }
 }
