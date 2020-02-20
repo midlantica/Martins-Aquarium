@@ -36,6 +36,7 @@ header .contact p {
 header .contact p a {
   color: var(--blue-md);
 }
+
 header .contact p a:hover {
   color: var(--blue-dk);
 }
@@ -44,7 +45,7 @@ header .contact p a:hover {
 /* NAV */
 nav {
   padding: 1em 2em 0em;
-  display: flex; 
+  display: flex;
   flex-direction: row;
 }
 
@@ -102,18 +103,36 @@ section.fishListing .panel {
   height: 350px;
   /* border: 1px solid grey; */
 }
-  
-/* @media (max-width: 600px) {
-  section.fishListing .panel {
-    border: 1px solid red;
-    height: 400px ;
-} */
 
-/* @media (width: 800px) {
+
+@media (min-width: 0px), (max-width: 599px) {
   section.fishListing .panel {
     border: 1px solid blue;
-    height: 400px ;
-} */
+    height: 400px;
+  }
+}
+
+@media (min-width: 600px) {
+  section.fishListing .panel {
+    border: 1px solid red;
+    height: 290px;
+  }
+}
+
+@media (min-width: 700px) {
+  section.fishListing .panel {
+    border: 1px solid green;
+    height: 380px;
+  }
+}
+
+@media (min-width: 1000px) {
+  section.fishListing .panel {
+    border: 1px solid green;
+    height: 340px;
+  }
+}
+
 
 section.fishListing .panel .fishyImg1 {
   background-image: url('../images/fish1.jpg');
@@ -134,26 +153,6 @@ section.fishListing .panel .fishyImg2 {
   /* min-height: 170px; */
   flex-grow: 1;
 }
-
-
-
-/* @media (max-width: 1000px) {
-  .fishyImg1,
-  .fishyImg2 {
-    width: 100%;
-    height: 180px;
-  }
-}
-
-@media (max-width: 600px) {
-  .fishyImg1,
-  .fishyImg2 {
-    width: 100%;
-    height: 250px;
-  }
-} */
-
-
 
 section.fishListing .panel h4 {
   font-size: 1.2em;
