@@ -46,7 +46,6 @@ header .logo {
   }
 }
 
-
 header .contact {
   /* align-self: flex-end; */
   /* border: 1px solid red; */
@@ -59,7 +58,6 @@ header .contact {
     text-align: center;
   }
 }
-
 
 nav {
   grid-row: 2;
@@ -84,7 +82,6 @@ main {
     grid-column: 1 / -1;
   }
 }
-
 
 aside {
   grid-row: 3;

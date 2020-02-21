@@ -65,7 +65,7 @@ section.fishListing .panel .fishyImg2 {
 }
 
 section.fishListing .panel h4 {
-  font-size: 1.2em;
+  font-size: 2em;
   margin-top: 0.5em;
   margin-bottom: 0.25em;
   color: var(--blue-md);
@@ -96,7 +96,7 @@ section.fishListing .panel p i {
   flex-shrink: 1;
   margin: 0.5em 0 0 0;
   padding: 0px 12px;
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: 400;
   background: var(--grey);
   color: var(--blue-md);
@@ -104,12 +104,13 @@ section.fishListing .panel p i {
   /* border: 1px solid var(--blue-md); */
   border-radius: 2px;
   line-height: 0;
-  height: 2em;
+  /* height: 2em; */
   text-align: center;
   outline: none;
   cursor: pointer;
 }
 
 .nameDetailsDiv button:hover {
-  background: var(--blue-lt);
+  background: var(--blue-md);
+  color: white;
 }
