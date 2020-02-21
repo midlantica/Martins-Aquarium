@@ -1,18 +1,13 @@
-@import './layout.css';
-@import './styles.css';
+@import './_colors.css';
+@import './_layout.css';
+@import './_nav.css';
+@import './_aside.css';
+@import './_header.css';
+@import './_footer.css';
+@import './fishList.css';
 
 * {
   box-sizing: border-box;
-}
-
-:root {
-  --blue-dk: #0E353D;
-  --blue-md: #267A8C;
-  --blue-lt: #CBF6FF;
-  --blue-pale: #EEFCFF;
-  --grey: rgb(234, 234, 234);
-  --white: #FFFFFF;
-  --black: #121212;
 }
 
 html {
@@ -33,4 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, li {
  color: var(--black);
+}
+
+main.container {
+  background: var(--blue-lt);
+  padding: 1.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
 }

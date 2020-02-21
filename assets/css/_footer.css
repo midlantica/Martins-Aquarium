@@ -1,0 +1,33 @@
+/* FOOTER */
+/* FOOTER */
+footer {
+  background-image: linear-gradient(180deg, #E7FBFF 12%, #87EAFF 100%);
+}
+
+footer h4 {
+  font-size: 1.75em;
+  color: var(--blue-md);
+  /* line-height: 1.25; */
+  margin: 0.5em 0 0;
+}
+
+footer .contact {
+  /*  */
+}
+
+footer .contact p {
+  font-size: 1.15em;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: var(--blue-dk);
+}
+
+footer .contact p a {
+  color: var(--blue-md);
+}
+
+footer .contact p a:hover {
+  color: var(--blue-dk);
+}
