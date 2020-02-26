@@ -44,15 +44,36 @@ section.fishListing .panel {
 
 
 section.fishListing .panel .fishyImg1 {
-  background-image: url('../images/fish1.jpg');
+  background-image: url('../images/bettafish.jpg');
 }
 
 section.fishListing .panel .fishyImg2 {
-  background-image: url('../images/fish2.jpg');
+  background-image: url('../images/nanofish.jpg');
+}
+
+section.fishListing .panel .fishyImg3 {
+  background-image: url('../images/swordtail.jpg');
+}
+
+section.fishListing .panel .fishyImg4 {
+  background-image: url('../images/lionfish.jpg');
+}
+
+section.fishListing .panel .fishyImg5 {
+  background-image: url('../images/angelfish.jpg');
+}
+
+section.fishListing .panel .fishyImg6 {
+  background-image: url('../images/clownfish.jpg');
 }
 
 .fishyImg1,
-.fishyImg2 {
+.fishyImg2,
+.fishyImg3,
+.fishyImg4,
+.fishyImg5,
+.fishyImg6
+ {
   /* width: 100%; */
   /* height: 26vh; */
   background-size: cover;
