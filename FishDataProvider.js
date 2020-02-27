@@ -1,6 +1,8 @@
 const fishCollection = [
   {
     name: "Bart",
+    nameCss: "bettafish",
+    imagePath: "/assets/images/bettafish.jpg",
     species: "Betta Fish",
     location: "Panama",
     length: 2.5,
@@ -8,6 +10,8 @@ const fishCollection = [
   },
   {
     name: "Rover",
+    nameCss: "nanofish",
+    imagePath: "/assets/images/nanofish.jpg",
     species: "Nano Fish",
     location: "Indonesia",
     length: 3,
@@ -15,6 +19,8 @@ const fishCollection = [
   },
   {
     name: "Arabella",
+    nameCss: "swordtail",
+    imagePath: "/assets/images/swordtail.jpg",
     species: "Swordtail",
     location: "Caribbean",
     length: 3.5,
@@ -22,6 +28,8 @@ const fishCollection = [
   },
   {
     name: "Jemma",
+    nameCss: "angelfish",
+    imagePath: "/assets/images/angelfish.jpg",
     species: "Angelfish",
     location: "Hawaii",
     length: 2,
@@ -29,6 +37,8 @@ const fishCollection = [
   },
   {
     name: "Blue",
+    nameCss: "clownfish",
+    imagePath: "/assets/images/clownfish.jpg",
     species: "Clownfish",
     location: "Greece",
     length: 3,

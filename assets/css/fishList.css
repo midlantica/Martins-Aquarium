@@ -42,37 +42,36 @@ section.fishListing .panel {
   }
 }
 
-
-section.fishListing .panel .fishyImg1 {
+section.fishListing .panel .bettafish {
   background-image: url('../images/bettafish.jpg');
 }
 
-section.fishListing .panel .fishyImg2 {
+section.fishListing .panel .nanofish {
   background-image: url('../images/nanofish.jpg');
 }
 
-section.fishListing .panel .fishyImg3 {
+section.fishListing .panel .swordtail {
   background-image: url('../images/swordtail.jpg');
 }
 
-section.fishListing .panel .fishyImg4 {
+section.fishListing .panel .lionfish {
   background-image: url('../images/lionfish.jpg');
 }
 
-section.fishListing .panel .fishyImg5 {
+section.fishListing .panel .angelfish {
   background-image: url('../images/angelfish.jpg');
 }
 
-section.fishListing .panel .fishyImg6 {
+section.fishListing .panel .clownfish {
   background-image: url('../images/clownfish.jpg');
 }
 
-.fishyImg1,
-.fishyImg2,
-.fishyImg3,
-.fishyImg4,
-.fishyImg5,
-.fishyImg6
+.bettafish,
+.nanofish,
+.swordtail,
+.lionfish,
+.angelfish,
+.clownfish
  {
   /* width: 100%; */
   /* height: 26vh; */
@@ -134,4 +133,9 @@ section.fishListing .panel p i {
 .nameDetailsDiv button:hover {
   background: var(--blue-md);
   color: white;
+}
+
+.fishImg {
+  width: 100%;
+  height: 80%;
 }
