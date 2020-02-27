@@ -9,70 +9,43 @@ section.fishListing .panel {
   background: var(--white);
   display: flex;
   flex-direction: column;
-  height: 350px;
+  /* height: 350px; */
   /* border: 1px solid grey; */
 }
 
 
-@media (min-width: 0px), (max-width: 599px) {
-  section.fishListing .panel {
-    /* border: 1px solid blue; */
-    height: 400px;
-  }
-}
-
-@media (min-width: 600px) {
-  section.fishListing .panel {
-    /* border: 1px solid red; */
-    height: 290px;
-  }
-}
-
-@media (min-width: 700px) {
-  section.fishListing .panel {
-    /* border: 1px solid green; */
-    height: 380px;
-  }
-}
-
-@media (min-width: 1000px) {
-  section.fishListing .panel {
-    /* border: 1px solid green; */
-    height: 340px;
-  }
-}
 
 
-section.fishListing .panel .fishyImg1 {
+section.fishListing .panel .bettafish {
   background-image: url('../images/bettafish.jpg');
 }
 
-section.fishListing .panel .fishyImg2 {
+section.fishListing .panel .nanofish {
   background-image: url('../images/nanofish.jpg');
 }
 
-section.fishListing .panel .fishyImg3 {
+section.fishListing .panel .swordtail {
   background-image: url('../images/swordtail.jpg');
 }
 
-section.fishListing .panel .fishyImg4 {
+section.fishListing .panel .lionfish {
   background-image: url('../images/lionfish.jpg');
 }
 
-section.fishListing .panel .fishyImg5 {
+section.fishListing .panel .angelfish {
   background-image: url('../images/angelfish.jpg');
 }
 
-section.fishListing .panel .fishyImg6 {
+section.fishListing .panel .clownfish {
   background-image: url('../images/clownfish.jpg');
 }
 
-.fishyImg1,
-.fishyImg2,
-.fishyImg3,
-.fishyImg4,
-.fishyImg5,
-.fishyImg6
+.bettafish,
+.nanofish,
+.swordtail,
+.lionfish,
+.angelfish,
+.clownfish
  {
   /* width: 100%; */
   /* height: 26vh; */
@@ -93,7 +66,7 @@ section.fishListing .panel h4 {
 }
 
 section.fishListing .panel p {
-  font-size: 1em;
+  font-size: 1.5em;
   margin: 0em;
   line-height: 1.5;
 }
@@ -134,4 +107,43 @@ section.fishListing .panel p i {
 .nameDetailsDiv button:hover {
   background: var(--blue-md);
   color: white;
+}
+
+.fishImg {
+  width: 100%;
+  height: 80%;
+}
+
+@media (min-width: 0px), (max-width: 369px) {
+  .fishImg {
+    /* border: 1px solid blue; */
+    /* height: 150px; */
+  }
+}
+
+@media (min-width: 370px), (max-width: 599px) {
+  .fishImg {
+    /* border: 1px solid blue; */
+    /* height: 200px; */
+  }
+}
+
+@media (min-width: 600px) {
+  .fishImg {
+    /* border: 1px solid red; */
+    height: 150px;  }
+}
+
+@media (min-width: 800px) {
+  .fishImg {
+    /* border: 1px solid green; */
+    height: 200px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .fishImg {
+    /* border: 1px solid green; */
+    height: 280px;
+  }
 }
