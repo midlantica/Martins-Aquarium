@@ -20,16 +20,19 @@ const initializeDetailButtonEvents = () => {
     )
   }
   
-  // CAN'T TOUCH THIS - END
-  // You will be writing code below this line
-  for (const fishObject of fishObjectArray) {
-    document.querySelector(`.${fishObject.nameCss}`).addEventListener(
-      "click",
-      theClickEvent => {
-        const theDialog = document.querySelector(`.${fishObject.nameCss}`)
-        theDialog.showModal()
-      }
-    )
+  // Get a reference to all buttons that start with "button--"
+  const allDetailButtons = document.querySelectorAll("button[id^='button--']")
+
+  // Add an event listener to each one
+  for (const btn of allDetailButtons) {
+      btn.addEventListener(
+          "click",
+          theEvent => {
+              const dialogSiblingSelector = `#${theEvent.target.id}+dialog`
+              const theDialog = document.querySelector(dialogSiblingSelector)
+              theDialog.showModal()
+          }
+      )
   }
 
 }
