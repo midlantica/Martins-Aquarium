@@ -4,33 +4,68 @@ nav {
   flex-direction: row;
 }
 
-nav .navButton {
-  padding: 1.3em 1.8em 1.3em;
+.navButton {
+  /* padding: 1.3em 1.8em 1.3em; */
   background: var(--blue-lt);
   font-size: 1.25em;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-}
-
-nav .navButton.btnOn {
-  background: var(--blue-lt);
-}
-
-nav .navButton.btnOn:hover {
-  color: var(--white);
-  /* background: var(--blue-md); */
   cursor: pointer;
-  background-image: var(--gard01);
 }
 
-nav .navButton.btnOff {
+.navButton a {
+  padding: 1.3em 1.8em 1.3em;
+  display: block;
+}
+
+.navButton.btnOn {
+  color: var(--white);
+  background: var(--grad01);
+}
+
+.navButton.btnOn:hover {
+  color: var(--white);
+  background-image: var(--grad01);
+}
+
+.navButton.btnOn:hover a {
+  color: var(--white);
+}
+
+.navButton.btnOn a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navButton.btnOn a:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+
+
+.navButton.btnOff {
   color: grey;
   background: var(--grey);
 }
 
-nav .navButton.btnOff:hover {
+.navButton.btnOff:hover {
   color: var(--white);
   background: var(--blue-md);
-  cursor: pointer;
   background-image: var(--gard01);
 }
+
+.navButton.btnOff:hover a {
+  color: var(--white);
+  /* background-image: var(--gard01); */
+}
+
+.navButton.btnOff a {
+  color: grey;
+  text-decoration: none;
+}
+
+.navButton.btnOff a:hover {
+  color:var(--white);
+  text-decoration: none;
+}
+

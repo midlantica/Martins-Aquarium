@@ -6,6 +6,7 @@
 @import './_footer.css';
 @import './fishList.css';
 @import './dialog.css';
+@import './locations.css';
 
 * {
   box-sizing: border-box;

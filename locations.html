@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Martin's Rare Fish Menagerie - Locations</title>
+</head>
+
+<body>
+  <div class="grid-wrapper">
+    <header>
+      <div class="logo">
+        <h1>Martin's Rare Fish Menagerie</h1>
+      </div>
+      <div class="contact">
+        <p>(615) 567-8677</p>
+        <p><a href="mailto:martin@gmail.com">martin@gmail.com</a></p>
+      </div>
+    </header>
+
+    <nav>
+      <div class="navButton btnOff"><a href="index.html">Fish Listing</a></div>
+      <div class="navButton btnOn"><a href="locations.html">Fish Location</a></div>
+    </nav>
+
+    <main class="container">
+      <section class="fishLocations">
+        <div class="LocationMap">
+
+          <img class="mapImage" src="assets/images/locationsMap.png" width="1024" height="768" usemap="#image_map">
+          <map name="image_map">
+            <area shape="rect" alt="loc01" title="loc01" href="#aaaa" coords="0,0,100,100" href="#aaaaaaa" title="aaaaaaa" alt="aaaaaaa">
+            <area shape="rect" alt="loc02" title="loc02" href="#bbbbbbb" coords="554,265,611,310" href="#buttercup" title="Buttercup" alt="Buttercup">
+            <area shape="rect" alt="loc03" title="loc03" href="#cccccc" coords="762,27,827,74" href="#buttercup" title="Buttercup" alt="Buttercup">
+            <area shape="rect" alt="loc04" title="loc04" href="#ddddddd" coords="917,96,976,149" href="#buttercup" title="Buttercup" alt="Buttercup">
+            <area shape="rect" alt="loc05" title="loc05" href="#eeeeeee" coords="1064,143,1136,198" href="#buttercup" title="Buttercup" alt="Buttercup">
+          </map>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <h4>Martin's Aquarium Tips</h4>
+      <p>1. Salinity</p>
+      <p>2. Temperature</p>
+      <p>3. Client comments?</p>
+      Learn about the essentials of aquarium maintenance. Maintenance should include regular water changes, servicing
+      the
+      filter & testing the aquarium water.</p>
+      <p>Routine Maintenance Guide</p>
+      <p>Water Changes</p>
+      <p>Testing Aquarium Water</p>
+      <p>Filter Maintenance</p>
+      <p>Spending about thirty minutes on aquarium maintenance every other week, helps prevent common and time consuming
+        problems.</p>
+      <p>The main goal of routine maintenance is a stable and balanced aquarium.</p>
+      <p>If everything is running properly and your fish are healthy, there is no need for any major change, even if the
+        pH or
+        hardness is slightly out of range. Only increases or decreases of any major water parameter will require careful
+        but
+        immediate attention.</p>
+    </aside>
+
+    <footer>
+      <div class="logo">
+        <h4>Martin's Rare Fish Menagerie</h4>
+      </div>
+      <div class="contact">
+        <p>(615) 567-8677</p>
+        <p><a href="mailto:martin@gmail.com">martin@gmail.com</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="locations.js"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function (e) {
+        $('img[usemap]').rwdImageMaps();
+      });
+  </script>
+  
+</body>
+
+</html>
