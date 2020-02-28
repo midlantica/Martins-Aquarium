@@ -27,7 +27,17 @@
 
     <main class="container">
       <section class="fishLocations">
-        <img class="img100" src="assets/images/locationsMap.png" alt="world map fish harvesting locations">
+        <div class="LocationMap">
+
+          <img class="mapImage" src="assets/images/locationsMap.png" width="1024" height="768" usemap="#image_map">
+          <map name="image_map">
+            <area shape="rect" alt="loc01" title="loc01" href="#aaaa" coords="0,0,100,100" href="#aaaaaaa" title="aaaaaaa" alt="aaaaaaa">
+            <area shape="rect" alt="loc02" title="loc02" href="#bbbbbbb" coords="554,265,611,310" href="#buttercup" title="Buttercup" alt="Buttercup">
+            <area shape="rect" alt="loc03" title="loc03" href="#cccccc" coords="762,27,827,74" href="#buttercup" title="Buttercup" alt="Buttercup">
+            <area shape="rect" alt="loc04" title="loc04" href="#ddddddd" coords="917,96,976,149" href="#buttercup" title="Buttercup" alt="Buttercup">
+            <area shape="rect" alt="loc05" title="loc05" href="#eeeeeee" coords="1064,143,1136,198" href="#buttercup" title="Buttercup" alt="Buttercup">
+          </map>
+        </div>
       </section>
     </main>
 
@@ -65,6 +75,15 @@
   </div>
 
   <script type="module" src="locations.js"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function (e) {
+        $('img[usemap]').rwdImageMaps();
+      });
+  </script>
+  
 </body>
 
 </html>

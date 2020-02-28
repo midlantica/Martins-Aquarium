@@ -1,3 +1,69 @@
-.img100 {
+.LocationMap {
+  /* width: 100%; */
+  position: relative;
+}
+
+.mapImage {
+  /* border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+  border: none; */
+  /* display: inline; */
+}
+
+.mapImage map {
+  /* display: inline; */
+}
+
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+  /* background: rgba(255, 0, 0, 1); */
+  /* border: 2px solid green; */
+}
+
+.mapImage area {
+  display: inline;
+  cursor: pointer;
+  background: rgba(255, 0, 0, 1);
+  box-shadow: 2px 2px 4px black; 
+}
+
+.locationBox {
   width: 100%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: rgba(255, 0, 0, 1);
+  box-shadow: 2px 2px 4px black; 
+  cursor: pointer;
+}
+
+.location__Betta {
+  left: 100px;
+  top: 386px;
+}
+
+.location__Nano {
+  left: 241px;
+  top: 398px;
+}
+
+.location__Swordtail {
+  left: 390px;
+  top: 346px;
+}
+
+.location__Angelfish {
+  left: 535px;
+  top: 407px;
+}
+
+.location__Clownfish {
+  left: 670px;
+  top: 482px;
 }
