@@ -1,11 +1,6 @@
 import { useFish } from "./FishDataProvider.js"
 
 const fishObjectArray = useFish()
-// for (const fishObject of fishObjectArray) {
-//   contentElement.innerHTML += Fish(fishObject)
-// }
-
-// >>>>>>>>>>>>>>>>
 
 const initializeDetailButtonEvents = () => {
   // CAN'T TOUCH THIS - START

@@ -1,14 +1,5 @@
-/* TURN OFF fishInnards */
-/* .fishInnards {
-  display: none;
-} */
-
-/* .displayOn {
-  display: block;
-} */
-
 [class^="dialog--"] {
-  background: white;
+  background: var(--white);
   border: 1px solid grey;
   width: 40%;
   border-radius: 0.5em;
@@ -33,19 +24,19 @@
   color: rgba(15, 15, 15, 0.75);
 }
 
-.fishPoppy h4 {
+[class^="dialog--"] .fishPoppy h4 {
   font-size: 2em;
   margin: 0.3em 0 0.15em;
   letter-spacing: 0.02em;
   color: var(--blue-md);
 }
 
-.fishPoppy p {
+[class^="dialog--"] .fishPoppy p {
   font-size: 1.5em;
   letter-spacing: 0.02em;
 }
 
-.fishPoppy p i {
+[class^="dialog--"] .fishPoppy p i {
   color: var(--blue-md);
   font-style: normal;
 }

@@ -1,80 +1,36 @@
-/* FISH LISTING */
-/* FISH LISTING */
-section.fishListing {
+.fishList {
   background: var(--blue-lt);
   /* padding: 1em; */
 }
 
-section.fishListing .panel {
+.panel {
+  background: beige;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.panel {
   background: var(--white);
   display: flex;
   flex-direction: column;
-  /* height: 350px; */
-  /* border: 1px solid grey; */
 }
 
-
-
-
-section.fishListing .panel .bettafish {
-  background-image: url('../images/bettafish.jpg');
-}
-
-section.fishListing .panel .nanofish {
-  background-image: url('../images/nanofish.jpg');
-}
-
-section.fishListing .panel .swordtail {
-  background-image: url('../images/swordtail.jpg');
-}
-
-section.fishListing .panel .lionfish {
-  background-image: url('../images/lionfish.jpg');
-}
-
-section.fishListing .panel .angelfish {
-  background-image: url('../images/angelfish.jpg');
-}
-
-section.fishListing .panel .clownfish {
-  background-image: url('../images/clownfish.jpg');
-}
-
-.bettafish,
-.nanofish,
-.swordtail,
-.lionfish,
-.angelfish,
-.clownfish
- {
-  /* width: 100%; */
-  /* height: 26vh; */
-  background-size: cover;
-  /* background-size: 100% 100%; */
-  background-position: center;
-  background-repeat: no-repeat;
-  /* min-height: 170px; */
-  flex-grow: 1;
-  /* margin-bottom: .25em; */
-}
-
-section.fishListing .panel h4 {
+.panel h4 {
   font-size: 2em;
   margin-top: 0.5em;
   margin-bottom: 0.25em;
   color: var(--blue-md);
 }
 
-section.fishListing .panel p {
+.panel p {
   font-size: 1.5em;
   margin: 0em;
   line-height: 1.5;
 }
 
-section.fishListing .panel p i {
+.panel p i {
   color: #005c6f;
   font-style: normal;
-
 }
 
 .nameDetailsDiv {
@@ -95,10 +51,8 @@ section.fishListing .panel p i {
   background: var(--grey);
   color: var(--blue-md);
   border: none;
-  /* border: 1px solid var(--blue-md); */
   border-radius: 2px;
   line-height: 0;
-  /* height: 2em; */
   text-align: center;
   outline: none;
   cursor: pointer;
@@ -112,20 +66,6 @@ section.fishListing .panel p i {
 .fishImg {
   width: 100%;
   height: 80%;
-}
-
-@media (min-width: 0px), (max-width: 369px) {
-  .fishImg {
-    /* border: 1px solid blue; */
-    /* height: 150px; */
-  }
-}
-
-@media (min-width: 370px), (max-width: 599px) {
-  .fishImg {
-    /* border: 1px solid blue; */
-    /* height: 200px; */
-  }
 }
 
 @media (min-width: 600px) {

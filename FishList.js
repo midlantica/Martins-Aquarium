@@ -1,11 +1,9 @@
 import { useFish } from "./FishDataProvider.js"
 import Fish from "./Fish.js"
-// useFish()
-// Fish()
 
 const FishList = () => {
   // Get a reference to the `<article class="content">` element
-  const contentElement = document.querySelector(".fishListing")
+  const contentElement = document.querySelector(".fishList")
   const fishObjectArray = useFish()
   let fishHTMLRepresentations = "" 
 

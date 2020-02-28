@@ -1,0 +1,16 @@
+:root {
+  --blue-dkr: rgb(7, 25, 29);
+  --blue-dk: #0E353D;
+  --blue-md: #267A8C;
+  --blue-lw: #87EAFF;
+  --blue-lt: #CBF6FF;
+  --blue-pale: #E7FBFF;
+  --grey: rgb(234, 234, 234);
+  --white: #FFFFFF;
+  --black: #121212;
+  --grad00: linear-gradient(0deg, var(--blue-pale) 12%, var(--blue-lw) 100%);
+  --grad00Rev: linear-gradient(180deg, var(--blue-pale) 12%, var(--blue-lw) 100%);
+  --grad01: linear-gradient(0deg, var(--blue-lt) 12%, var(--blue-md) 100%);
+  --grad01Rev: linear-gradient(180deg, var(--blue-lt) 12%, var(--blue-md) 100%);
+}
+
